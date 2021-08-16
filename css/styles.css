@@ -73,10 +73,22 @@ body, html {
   /* Styling for splash image button on mobile */
   @media only screen and (max-width: 900px) {
 
-	.bottomText {
-	  width: 25vh;
-	  height: 15vh;
-	}
+
+/* Homepage button */
+.bottomText {
+	position:absolute;
+	top: 240%;
+	left: 41%;
+	font-family: 'Dosis', sans-serif;
+	font-size: 5.5vw;
+    background-color: Transparent;
+	border: 2px solid #fff;
+	cursor: pointer;
+	transition: all 0.5s;
+	padding: 10px;
+	
+  }
+	
   }
 
 
