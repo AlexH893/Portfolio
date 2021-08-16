@@ -45,7 +45,7 @@ body, html {
 
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 900px) {
 	.bg {
 	  /* The image used */
 	  background-image: url("../img/unsplash.png");
