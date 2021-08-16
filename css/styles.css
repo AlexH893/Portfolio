@@ -76,10 +76,10 @@ body, html {
 
 /* Homepage button */
 .bottomText span {
-	font-size: 5.5em;
+	font-size: 3.5em;
 	position:absolute;
 	top: 240%;
-	left: 41%;
+	left: 30%;
 	font-family: 'Dosis', sans-serif;
 	font-size: 5.5vw;
     background-color: Transparent;
