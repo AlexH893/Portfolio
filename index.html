@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <!--RESUME MODAL-->
+  <div class="modal" id="myModal">
+    <div class="modal-background"></div>
+    <div class="modal-card" id="myModal">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Resume</p>
+        <button class="delete" aria-label="close" data-bulma-modal="close"></button>
+      </header>
+      <section class="modal-card-body">
+        <iframe src="alexhaefnerresume.pdf" width="800px" height="1200px">
+        </iframe>
+      </section>
+      <footer class="modal-card-foot">
+        <a href="alexhaefnerresume.pdf" download="AlexHaefnerResume">
+        <button class="button is-success">Download</button></a>
+        <button class="button" data-bulma-modal="close">Close</button>
+      </footer>
+    </div>
+  </div>
+  <!--!RESUME MODAL-->
+
+<meta charset="UTF-8">
+<title>Index</title>
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/hover.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+<script src="scrollmagic/scrollmagic/uncompressed/ScrollMagic.js"></script>
+<script src="scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap.js"></script>
+<script src="scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script>
+
+<!-- Bulma css lib-->
+<link rel="stylesheet" href="css/bulma/css/bulma.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css">
+
+ <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+
+
+<style>
+html {
+   scroll-behavior: smooth;
+ }
+</style>
+</head>
+<body>
+
+   <!-- Section1-->
+   <div class="bg" id="home"></div>
+   <div class = "caption">
+   <span class="centeredTxt" >HI, I'M ALEX. <br>I DESIGN & BUILD WEBSITES.</span>
+   <button class="bottomText"><a href="#skills"><span>Learn more about what I do </span></a><br>
+ </button>
+
+</div>
+
+<div class="nav-wrapper" style="height:50px;"> <!-- This prevents issues with parallax images-->
+
+   <!-- Begin navbar-->
+
+<div id="navbar">
+   <a class="active" href="#home">Home</a>
+   <a href="#skills">Skills</a>
+   <a href="#about">About</a>
+   <a href="#databasediagrams">DB Diagrams</a>
+   <a href="#apiunittests">API Unit Tests</a>
+   <a href="#devops">DevOps Presentations</a>
+
+ </div>
+   <!-- End navbar-->
+
+ </div><!-- !This prevents issues with parallax images-->
+
+   <div class="spacer s0"></div>
+   <div id="parallax1" class="parallaxParent2">
+      <div style="background-image: url(img/Untitled-1.png);" ></div>
+   </div>
+
+   <!-- SKILLS-->
+   <div class="spacer s1" id="skills">
+
+      <div data-aos="fade-up" 
+      data-aos-duration="1000"> <!-- fade -->      
+     <!-- <div class="box2" ></div> -->
+         <!--Section2-->
+         <section class="section skills has-text-centered" >
+            <div class = "container is-narrow">
+         <div class="box">
+
+            <div class="content">
+
+              <div class="columns is-centered">
+                 <!-- Web Designer-->
+                <div class="column">
+                  <figure class="image"><img class="is-skill-icon" src="https://mattfarley.ca/img/icons/designer.svg"></figure>
+                  <h1 class="title is-size-4 is-spaced">UI/UX Design</h1>
+                  <p>I value simple content structure, polished design patterns, and thoughtful interactions.</p>
+                  <p class="list-title has-text-primary has-text-weight-normal">Things I enjoy designing:</p>
+                  <p>UX, UI, Web, Mobile, Apps, Logos</p>
+                  <p class="list-title has-text-primary has-text-weight-normal">Design Tools:</p>
+                  <ul>
+                    <li>WordPress</li>
+                    <li>Adobe Dreamweaver</li>
+                    <li>Sketch</li>
+                    <li>Mockuplus</li>
+                    <li>Figma</li>
+
+                  </ul>
+                </div>
+                <!-- Web Designer-->
+                <!-- Web Developer-->
+                <div class="column">
+                  <figure class="image"><img class="is-skill-icon" src="https://mattfarley.ca/img/icons/frontend.svg"></figure>
+                  <h1 class="title is-size-4 is-spaced">Web Developer</h1>
+                  <p>I enjoy bringing ideas to life in the browser.</p>
+                  <p class="list-title has-text-primary has-text-weight-normal">Languages I use:</p>
+                  <p>HTML, CSS, SASS, JS, Node.js, PHP, SQL</p>
+                  <p class="list-title has-text-primary has-text-weight-normal">Dev Tools:</p>
+                  <ul>
+                    <li>Bootstrap</li>
+                    <li>Angular</li>
+                    <li>Github</li>
+                    <li>Terminal</li>
+                    <li>Visual Studio/VSCode</li>
+                    <li>Terminal</li>
+                  </ul>
+                </div>
+                <!-- !Web Developer-->   
+                <!-- Testing-->             
+                <div class="column"> 
+                  <figure class="image"><img class="is-skill-icon" src="https://mattfarley.ca/img/icons/mentor.svg"></figure>
+                  <h1 class="title is-size-4 is-spaced">Testing</h1>
+                  <p>I love picking apart software like its a technical puzzle.</p>
+                  <p class="list-title has-text-primary has-text-weight-normal">Types of testing I enjoy:</p>
+                  <p>User-acceptance testing, regression testing, unit testing, automation testing</p>
+                  <p class="list-title has-text-primary has-text-weight-normal">Tools:</p>
+                  <ul>
+                    <li>Selenium Webdriver</li>
+                    <li>Postman</li>
+                    <li>Swagger.io</li>
+                    <li>SoapUI</li>
+                  </ul>
+                </div>
+                <!-- !Testing-->             
+              </div>
+            </div>
+          </div> <!-- box-->
+         </div>
+
+</section>
+</div> <!-- !fade-->
+    </div>
+       <!-- !SKILLS-->
+
+
+   <div class="spacer s0"></div>
+   <div id="parallax2" class="parallaxParent">
+      <div style="background-image: url(img/Untitled-1.png);"></div>
+   </div>
+
+
+<!-- ABOUT -->
+<div class="spacer s1" id="about">
+
+<!-- Section 3-->  
+<div data-aos="fade-up" data-aos-duration="1000"> <!-- fade -->
+
+<section class="section aboutMe has-text-centered">
+<div class = "container is-narrow">
+<div class="box">
+
+  <div class="content">
+
+    <div class="columns is-centered">
+
+      <div class="column" >
+        <h3>About</h3>
+        <p>I'm an aspiring web developer who enjoys working on small projects in my free time,
+          as well as hiking and doing photography. I was born in Iowa and moved to Colorado
+           in 2021 to pursue photography further as well as be closer to a thriving tech scene. 
+          </p>
+          <p>
+            Currently, I'm in school at Bellevue University majoring in Web Development, studying the latest frameworks used in web stacks
+            and skills needed to design and develop dynamic web applications. I'm working with things like 
+            <ul>
+              <li>JavaScript</li>
+              <li>API Development</li>
+              <li>Agile Methodologies</li>
+              <li>Typescript</li>
+              <li>Container Technologies</li>
+            </ul> 
+
+            I'm learning valuable knowledge on writing applications and integrating software throughout the full stack, 
+            evaluating web application suitability to meet stakeholder requirements, and demonstrating effective
+             teamwork in web application development.
+          </p>
+
+      </div>
+
+      <div class="column">
+        <div class="shadow">
+          <div class="shape">
+            <div class="inner-shape"></div>
+            <div class="hover-shape">
+              <span class="text">Text</span>
+            </div>
+          </div><!--!shape-->
+          </div><!--!shadow-->
+          <br>
+          <button id="btn" class="button is-link">My Resume</button>
+          <div class="three"></div>
+      </div>
+    </div>
+  </div>
+</div> <!-- box-->
+</div>
+
+</section>
+</div> <!-- fade -->
+</div><!-- !ABOUT -->
+
+
+
+   <div class="spacer s0"></div>
+   <div id="parallax3" class="parallaxParent">
+      <div style="background-image: url(img/Untitled-1.png);"></div>
+   </div>
+
+
+
+
+    <!-- DB DIAGRAMS -->
+    <div class="spacer s1" id="databasediagrams">
+
+      <!-- Section 3-->  
+      <div data-aos="fade-up" data-aos-duration="1000"> <!-- fade -->
+      
+        <section class="section databasediagrams has-text-centered">
+          <div class = "container is-narrow">
+          <div class="box">
+            <div class="content">
+              <h3>Database Diagrams</h3>
+              <h5>Diagrams from WEB 335 Introduction to NoSQL</h5>
+              <div class="columns is-centered" style="margin-left: 8.5rem;
+              margin-right: 8.75rem;">
+          
+                <div class="column is-3-desktop">
+                  <ul id="hoverOver" class="hoverOver">
+                    <li> 
+                      <img src="img/dbdiagrams/1.4ORD.png" class="diagram"/>
+                        <div><span>Object Relational Diagram<br>Assignment 1.4</span></div>
+                  </ul>
+                </div>
+          
+                <div class="column is-3-desktop">
+                  <ul id="hoverOver" class="hoverOver">
+                    <li> 
+                        <img src="img/dbdiagrams/1.4datastructure.png" class="diagram"/>
+                        <div><span>NoSQL Data Structure<br>Assignment 1.4</span></div>
+                  </ul>
+                </div>
+     
+                <div class="column is-3-desktop">
+                  <ul id="hoverOver" class="hoverOver">
+                    <li> 
+                        <img src="img/dbdiagrams/uml2.2.png" class="diagram"/>
+                        <div><span>Object Relational Diagram<br>Assignment 2.2</span></div>
+                  </ul>
+                </div>  
+    
+                <div class="column is-3-desktop">
+                  <ul id="hoverOver" class="hoverOver">
+                    <li> 
+                        <img src="img/dbdiagrams/dataStructure-2.2.png" class="diagram"/>
+                        <div><span>NoSQL Data Structure<br>Assignment 2.2</span></div>
+                  </ul>
+                </div> 
+     
+                <div class="column is-3-desktop">
+                  <ul id="hoverOver" class="hoverOver">
+                    <li> 
+                        <img src="img/dbdiagrams/2.3ORD.png" class="diagram"/>
+                        <div><span>Object Relational Diagram<br>Assignment 2.3</span></div>
+                  </ul>
+                </div>
+              </div>
+    
+              <div class="columns is-centered" style="margin-left: 8.5rem;
+              margin-right: 8.75rem;">
+          
+      
+                <div class="column is-3-desktop">
+                  <ul id="hoverOver" class="hoverOver">
+                    <li> 
+                        <img src="img/dbdiagrams/2.3dataStructure.png" class="diagram"/>
+                        <div><span>NoSQL Data Structure<br>Assignment 2.3</span></div>
+                  </ul>
+                </div>
+     
+                <div class="column is-3-desktop">
+                  <ul id="hoverOver" class="hoverOver">
+                    <li> 
+                        <img src="img/dbdiagrams/3.2ORD.png" class="diagram"/>
+                        <div><span>Object Relational Diagram<br>Assignment 3.2</span></div>
+                  </ul>
+                </div>             
+    
+                <div class="column is-3-desktop">
+                  <ul id="hoverOver" class="hoverOver">
+                    <li> 
+                        <img src="img/dbdiagrams/3.2dataStructure.png" class="diagram"/>
+                        <div><span>NoSQL Data Structure<br>Assignment 3.2</span></div>
+                  </ul>
+                </div>
+    
+                <div class="column is-3-desktop">
+                  <ul id="hoverOver" class="hoverOver">
+                    <li> 
+                        <img src="img/dbdiagrams/3.3ORD.png" class="diagram"/>
+                        <div><span>Object Relational Diagram<br>Assignment 3.3</span></div>
+                  </ul>
+                </div>  
+                
+                <div class="column is-3-desktop">
+                  <ul id="hoverOver" class="hoverOver">
+                    <li> 
+                        <img src="img/dbdiagrams/3.3dataStructure.png" class="diagram"/>
+                        <div><span>NoSQL Data Structure<br>Assignment 3.3</span></div>
+                  </ul>
+                </div>            
+              </div> <!--!Column is-cenered-->         
+    
+    
+              </div> <!--!Content-->            
+          </div> <!-- box-->
+          </div>
+          
+          </section>
+      </div> <!-- fade -->
+      </div><!-- !DB DIAGRAMS --> 
+
+
+      <div class="spacer s0"></div>
+      <div id="parallax4" class="parallaxParent">
+         <div style="background-image: url(img/Untitled-1.png);"></div>
+      </div>
+
+
+    <!-- API UNIT TESTS -->
+    <div class="spacer s1" id="apiunittests">
+
+      <!-- Section 3-->  
+      <div data-aos="fade-up" data-aos-duration="1000"> <!-- fade -->
+      
+        <section class="section apiunittests has-text-centered">
+          <div class = "container is-narrow">
+          <div class="box">
+            <div class="content">
+              <h3>API Unit Tests</h3>
+              <h5>Unit tests from WEB 335 Introduction to NoSQL</h5>
+              <div class="columns is-centered" style="margin-left: 8.5rem;
+              margin-right: 8.75rem;">
+          
+                <div class="column is-3-desktop">
+                  <ul id="hoverOver" class="hoverOver">
+                    <li> 
+                      <img src="img/dbdiagrams/soapui4.1.png" class="diagram"/>
+                        <div><span>SOAP UI Unit Test<br>(GET Request) Assignment 4.2 </span></div>
+                  </ul>
+                </div>
+          
+                <div class="column is-3-desktop">
+                  <ul id="hoverOver" class="hoverOver">
+                    <li> 
+                        <img src="img/dbdiagrams/swagger4.2.png" class="diagram"/>
+                        <div><span>Swagger Unit Test<br>(GET Request) Assignment 4.2</span></div>
+                  </ul>
+                </div>
+     
+                <div class="column is-3-desktop">
+                  <ul id="hoverOver" class="hoverOver">
+                    <li> 
+                        <img src="img/dbdiagrams/soap5.2.png" class="diagram"/>
+                        <div><span>SOAP UI Unit Test<br>(GET Request) Assignment 5.2 </span></div>
+                  </ul>
+                </div>  
+    
+                <div class="column is-3-desktop">
+                  <ul id="hoverOver" class="hoverOver">
+                    <li> 
+                        <img src="img/dbdiagrams/swagger5.2.png" class="diagram"/>
+                        <div><span>Swagger Unit Test<br>(POST Request) Assignment 5.2</span></div>
+                  </ul>
+                </div> 
+  
+                <div class="column is-3-desktop">
+                  <ul id="hoverOver" class="hoverOver">
+                    <li> 
+                        <img src="img/dbdiagrams/swagger6.2.png" class="diagram"/>
+                        <div><span>Swagger Unit Test<br>(POST Request) Assignment 6.2</span></div>
+                  </ul>
+                </div>                
+              </div> <!--column is-centered-->
+    
+              <div class="columns is-centered" style="margin-left: 8.5rem;
+              margin-right: 8.75rem;">
+          
+      
+          <div class="column is-3-desktop">
+            <ul id="hoverOver" class="hoverOver">
+              <li> 
+                  <img src="img/dbdiagrams/soap6.2.png" class="diagram"/>
+                  <div><span>SOAP UI Unit Test<br>(POST Request) Assignment 6.2 </span></div>
+            </ul>
+          </div> 
+     
+          <div class="column is-3-desktop">
+            <ul id="hoverOver" class="hoverOver">
+              <li> 
+                  <img src="img/dbdiagrams/swagger7.2.png" class="diagram"/>
+                  <div><span>Swagger Unit Test<br>(POST Request) Assignment 7.2</span></div>
+            </ul>
+          </div>              
+    
+          <div class="column is-3-desktop">
+            <ul id="hoverOver" class="hoverOver">
+              <li> 
+                  <img src="img/dbdiagrams/swagger7.21.png" class="diagram"/>
+                  <div><span>Swagger Unit Test<br>(POST Request) Assignment 7.2</span></div>
+            </ul>
+          </div>  
+    
+          <div class="column is-3-desktop">
+            <ul id="hoverOver" class="hoverOver">
+              <li> 
+                  <img src="img/dbdiagrams/soap7.2.png" class="diagram"/>
+                  <div><span>SOAP UI Unit Test<br>(GET Request) Assignment 7.2 </span></div>
+            </ul>
+          </div> 
+                
+          <div class="column is-3-desktop">
+            <ul id="hoverOver" class="hoverOver">
+              <li> 
+                  <img src="img/dbdiagrams/swagger8.2.png" class="diagram"/>
+                  <div><span>Swagger Unit Test<br>(PUT Request) Assignment 8.2</span></div>
+            </ul>
+          </div>  
+
+        </div> <!--column is-centered-->
+    
+              <div class="columns is-centered" style="margin-left: 8.5rem;
+              margin-right: 8.75rem;">
+              
+              <div class="column is-3-desktop">
+                <ul id="hoverOver" class="hoverOver">
+                  <li> 
+                      <img src="img/dbdiagrams/soap8.2.png" class="diagram"/>
+                      <div><span>SOAP UI Unit Test<br>(DELETE Request) Assignment 8.2 </span></div>
+                </ul>
+              </div>              
+
+              <div class="column is-3-desktop">
+                <ul id="hoverOver" class="hoverOver">
+                  <li> 
+                      <img src="img/dbdiagrams/findAllTeams.png" class="diagram"/>
+                      <div><span>Swagger Unit Test<br>(GET Request) Assignment 9.2</span></div>
+                </ul>
+              </div>
+
+              <div class="column is-3-desktop">
+                <ul id="hoverOver" class="hoverOver">
+                  <li> 
+                      <img src="img/dbdiagrams/assignPlayerToTeam.png" class="diagram"/>
+                      <div><span>Swagger Unit Test<br>(POST Request) Assignment 9.2</span></div>
+                </ul>
+              </div>
+
+
+              <div class="column is-3-desktop">
+                <ul id="hoverOver" class="hoverOver">
+                  <li> 
+                      <img src="img/dbdiagrams/findAllPlayersByTeamId.png" class="diagram"/>
+                      <div><span>SOAP UI Unit Test<br>(GET Request) Assignment 9.2 </span></div>
+                </ul>
+              </div>  
+
+              <div class="column is-3-desktop">
+                <ul id="hoverOver" class="hoverOver">
+                  <li> 
+                      <img src="img/dbdiagrams/deleteTeamById.png" class="diagram"/>
+                      <div><span>Swagger Unit Test<br>(DELETE Request) Assignment 9.2</span></div>
+                </ul>
+              </div>
+
+
+
+              </div> <!--column is-centered-->
+    
+          </div> <!-- box-->
+          </div>
+          
+          </section>
+      </div> <!-- fade -->
+      </div><!-- !Unit tests --> 
+
+
+
+
+
+
+    <!-- DEVOPS PRESENTATIONS -->
+    <div class="spacer s1" id="devops">
+
+      <!-- Section 3-->  
+      <div data-aos="fade-up" data-aos-duration="1000"> <!-- fade -->
+      
+        <section class="section databasediagrams has-text-centered">
+          <div class = "container is-narrow">
+          <div class="box">
+            <div class="content">
+              <h3>DevOps Presentations</h3>
+              <h5>Slideshow presentations on the practices & fundamentals of DevOps
+                from WEB-430 DevOps
+              </h5>
+              <div class="columns is-centered" style="margin-left: 8.5rem;
+              margin-right: 8.75rem;">
+          
+                <div class="column is-3-desktop">
+                  <div class="card">
+                    <div class="card-title">The Technology Value Stream</div>
+                    <div class="card-content">
+  
+                      <video controls autoplay reload="none" style="width:800px;">
+                        <source src="devops-presentations/haefner-value-stream.mp4"
+                         type="video/mp4" />
+                        </video> 
+                                       
+  
+  
+                    </div>
+                </div>
+                </div>
+          
+                <div class="column is-3-desktop">
+                  <ul id="hoverOver" class="hoverOver">
+                    <li> 
+                      placeholder
+                    </li>
+                  </ul>
+                </div>
+     
+                <div class="column is-3-desktop">
+                  <ul id="hoverOver" class="hoverOver">
+                    <li> 
+                      placeholder
+                    </li>
+                  </ul>
+                </div>
+
+              </div> <!--column is-centered-->
+    
+              <div class="columns is-centered" style="margin-left: 8.5rem;
+              margin-right: 8.75rem;">
+          
+      
+          <div class="column is-3-desktop">
+            <ul id="hoverOver" class="hoverOver">
+              <li> 
+                placeholder
+              </li>
+            </ul>
+          </div>
+     
+          <div class="column is-3-desktop">
+            <ul id="hoverOver" class="hoverOver">
+              <li> 
+                placeholder
+              </li>
+            </ul>
+          </div>              
+    
+          <div class="column is-3-desktop">
+            <ul id="hoverOver" class="hoverOver">
+              <li> 
+                placeholder
+              </li>
+            </ul>
+          </div>
+    
+
+        </div> <!--column is-centered-->
+    
+          </div> <!-- box-->
+          </div>
+          
+          </section>
+      </div> <!-- fade -->
+      </div><!-- !DEVOPS --> 
+
+
+
+
+
+
+
+
+   <script src="js/newFooter.js"></script>
+   <script src="js/navStick.js"></script>
+   <script src="js/jquery.hoverdir.js"></script>	
+   <script src="js/modernizr.custom.97074.js"></script>
+   <script src="js/modal.js"></script>	
+   <script src="js/diagramHover.js"></script>	
+   <script src="js/scroll.js"></script>	
+
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+   <footer-component></footer-component>
+
+
+   <script>AOS.init();</script>
+</body>
+<script>
+
+// Initialize controller
+var controller = new ScrollMagic.Controller({
+    globalSceneOptions: {
+        triggerHook: "onEnter",
+        duration: "200%"
+    }
+});
+
+// Build scenes
+new ScrollMagic.Scene({
+        triggerElement: "#parallax1"
+    })
+    .setTween("#parallax1 > div", {
+        y: "80%",
+        ease: Linear.easeNone
+    })
+    .addIndicators()
+    .addTo(controller);
+
+new ScrollMagic.Scene({
+        triggerElement: "#parallax2"
+    })
+    .setTween("#parallax2 > div", {
+        y: "80%",
+        ease: Linear.easeNone
+    })
+    .addIndicators()
+    .addTo(controller);
+
+new ScrollMagic.Scene({
+        triggerElement: "#parallax3"
+    })
+    .setTween("#parallax3 > div", {
+        y: "80%",
+        ease: Linear.easeNone
+    })
+    .addIndicators()
+    .addTo(controller);
+
+new ScrollMagic.Scene({
+        triggerElement: "#parallax4"
+    })
+    .setTween("#parallax4 > div", {
+        y: "80%",
+        ease: Linear.easeNone
+    })
+    .addIndicators()
+    .addTo(controller);
+
+</script>
+</html>
