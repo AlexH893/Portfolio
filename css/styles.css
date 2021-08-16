@@ -45,21 +45,40 @@ body, html {
 
   }
 
+  /** Styling for splash image on mobile */
   @media only screen and (max-width: 900px) {
 	.bg {
 	  /* The image used */
 	  background-image: url("../img/unsplash.png");
-	  height: 100vh;
+	  height: 80vh;
 	  background-position: center;
 	  background-repeat: no-repeat;
 	  background-size: cover;
-
 
 	/* Blur image */
 	-webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
   	filter: blur(5px);
 	}
   }  
+
+  /* Styling for splash image txt on mobile */
+  @media only screen and (max-width: 900px) {
+
+  .centeredTxt {
+	font-size: 20px;
+  }
+}
+
+
+  /* Styling for splash image button on mobile */
+  @media only screen and (max-width: 900px) {
+
+	.bottomText {
+	  width: 25vh;
+	  height: 15vh;
+	}
+  }
+
 
 .caption {
     position: absolute;
