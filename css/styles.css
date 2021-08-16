@@ -74,7 +74,7 @@ body, html {
   @media only screen and (max-width: 900px) {
 button.bottomText {
 	position:absolute;
-	top: 280%;
+	top: 320%;
 	left: 30vw;
 	height: 8vh;
 	font-family: 'Dosis', sans-serif;
