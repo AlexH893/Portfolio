@@ -73,8 +73,8 @@ body, html {
   /* Styling for splash image button on mobile */
   @media only screen and (max-width: 900px) {
 button.bottomText {
-	top: 370%;
-	left: 30vw;
+	top: 330%;
+	left:calc(350px + 100vw - 900px)!important;
 	height: 8vh;
 	font-family: 'Dosis', sans-serif;
     background-color: Transparent;
