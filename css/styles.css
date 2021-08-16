@@ -75,8 +75,8 @@ body, html {
 
 
 /* Homepage button */
-.bottomText {
-	font-size: 1.5em;
+.bottomText span {
+	font-size: 5.5em;
 	position:absolute;
 	top: 240%;
 	left: 41%;
