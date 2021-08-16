@@ -62,8 +62,7 @@ body, html {
   }  
 
   /* Styling for splash image txt on mobile */
-  @media only screen and (max-width: 900px) {
-
+  @media only screen and (max-width : 320px) {
   .centeredTxt {
 	font-size: 20px;
   }
@@ -71,7 +70,7 @@ body, html {
 
 
   /* Styling for splash image button on mobile */
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width : 320px) {
 button.bottomText {
 	top: 330%;
 	left:calc(350px + 100vw - 900px)!important;
@@ -86,8 +85,8 @@ button.bottomText {
   }
 
   /* Styling for splash image button TXT on mobile */
-  @media only screen and (max-width: 900px) {
-	button.bottomText a span {
+  @media only screen and (max-width : 320px) {
+	  	button.bottomText a span {
 		cursor: pointer;
 		font-size: 200%;
 		display: inline-block;
