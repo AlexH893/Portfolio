@@ -76,7 +76,7 @@ body, html {
 
 /* Homepage button */
 .bottomText {
-	height: 10vh;
+	font-size: 1.5em;
 	position:absolute;
 	top: 240%;
 	left: 41%;
