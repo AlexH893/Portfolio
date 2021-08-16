@@ -72,27 +72,32 @@ body, html {
 
   /* Styling for splash image button on mobile */
   @media only screen and (max-width: 900px) {
-
-
-/* Homepage button */
-.bottomText span {
-	font-size: 3.5em;
+button.bottomText {
 	position:absolute;
 	top: 240%;
-	left: 30%;
+	left: 30vw;
+	height: 8vh;
 	font-family: 'Dosis', sans-serif;
-	font-size: 5.5vw;
     background-color: Transparent;
 	border: 2px solid #fff;
 	cursor: pointer;
 	transition: all 0.5s;
 	padding: 10px;
-	
   	}
-	
   }
 
-
+  /* Styling for splash image button TXT on mobile */
+  @media only screen and (max-width: 900px) {
+	button.bottomText a span {
+		cursor: pointer;
+		font-size: 200%;
+		display: inline-block;
+		position: relative;
+		transition: 0.5s;
+		color: #000;
+		  }
+	  }
+	
 .caption {
     position: absolute;
     left: 0;
