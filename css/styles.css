@@ -47,10 +47,10 @@ body, html {
 
   @media only screen and (max-width: 600px) {
 	.bg {
-	  height: 50vh;
+	  height: 100vh;
 	  background-position: center;
 	  background-repeat: no-repeat;
-	  
+
 	/* Blur image */
 	-webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
   	filter: blur(5px);
