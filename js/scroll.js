@@ -22,7 +22,7 @@ $(document).ready(function () {
         });
     });
 });
-
+/*
 function onScroll(event){
     var scrollPos = $(document).scrollTop();
     $('#navbar a').each(function () {
@@ -38,3 +38,4 @@ function onScroll(event){
         }
     });
 }
+*/
