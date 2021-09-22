@@ -247,19 +247,16 @@ button.bottomText {
 	-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
-/**
-#myModal {
-	width: 840px;
-}*/
 
 .shadow {
    filter: drop-shadow(3px 3px 10px rgba(0, 0, 0, 0.1));
    padding-left: 15%;
 }
 
+/* styling for 2nd about picture */
 .shadow2 {
 	filter: drop-shadow(3px 3px 10px rgba(0, 0, 0, 0.1));
-	padding-left: 15%;
+    padding-left: 29%;
  }
 
 .shape {
