@@ -2039,7 +2039,7 @@ fieldset[disabled] .button {
 
 .content ul {
   /*list-style: disc outside; remove bullet points */
-  margin-left: 2em;
+  /*margin-left: 2em; remove extra spacing on skills */
   margin-top: 1em;
 }
 
