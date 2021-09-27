@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Freelance</title>
+      <link rel="stylesheet" href="css/styles.css">
+      <link rel="stylesheet" href="css/hover.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
+      <!-- Bulma css lib-->
+      <link rel="stylesheet" href="css/bulma/css/bulma.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css">
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+      <style>
+         html {
+         scroll-behavior: smooth;
+         }
+      </style>
+   </head>
+   <body>
+      <div class="nav-wrapper" style="height:50px;">
+         <!-- This prevents issues with parallax images-->
+         <!-- Begin navbar-->
+         <div id="navbar">
+            <a href="index.html#skills">Home</a>
+            <a  href="coursework.html">Coursework</a>
+            <a class="active" href="">Freelance Work</a>
+
+         </div>
+         <!-- End navbar-->
+      </div>
+      <!-- !This prevents issues with parallax images-->
+
+      <!-- PROJECTS -->
+      <div class="spacer s1" id="projects">
+         <!-- Section 3-->  
+         <div data-aos="fade-up" data-aos-duration="1000">
+            <!-- fade -->
+            <section class="section databasediagrams has-text-centered">
+               <div class = "container is-narrow">
+                  <div class="box">
+                     <div class="content">
+                        <h3>Projects</h3>
+                        <h5>Freelance Projects for Clients
+                        </h5>
+                        <div class="columns is-centered" style="margin-left: 8.5rem;
+                           margin-right: 8.75rem;">
+                           <div class="column is-full">
+                              <div class="card">
+                                 <div class="card-title"><a href="" target="blank">Photography Portfolio</a></div>
+                                 <div class="card-content">
+                                    Technologies/Libraries Used: HTML / CSS / JS / jquery / LazyLoad.js<br><br>
+                                    A photography & tattoo portfolio website to showcase work. Utilizes CSS Flexbox
+                                    to align images in a single side-scrolling column. Images are lazy loaded using a library that leverages the <a href= "https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API" target="blank">Intersection Observer API</a>
+                                    and callback functions that execute whenever an image enters the viewport. Images fade in as the user
+                                    scrolls along.
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- box-->
+                  </div>
+            </section>
+            </div> <!-- fade -->
+         </div>
+         <!-- !PROJECTS -->
+
+      <script src="js/newFooter.js"></script>
+      <script src="js/navStick.js"></script>
+      <script src="js/jquery.hoverdir.js"></script>	
+      <script src="js/modernizr.custom.97074.js"></script>
+      <script src="js/diagramHover.js"></script>	
+      <script src="js/scroll.js"></script>	
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <footer-component></footer-component>
+      <script>AOS.init();</script>
+   </body>
+   <script></script>
+</html>
