@@ -7,7 +7,7 @@ class Footer extends HTMLElement
     connectedCallback() {
         this.innerHTML = `
         <div class="footer">
-        <p>Built with</p>
+        <p>Built using</p>
          <a href="https://bulma.io/" title="Bulma CSS" target='blank'><i class="devicon-bulma-plain"></i></a>
         <br>
         <p>My links</p>
